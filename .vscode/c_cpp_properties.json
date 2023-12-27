@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPath": "/usr/bin/avr-gcc",
+            "compilerArgs": [
+                "-g",
+                "-mmcu=atmega32",
+                "-Wall",
+                "-Os"
+            ]
+        }
+    ],
+    "version": 4
+}
